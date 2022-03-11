@@ -1,0 +1,154 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22/11/2019, 17:50:04
+    Author     : acer
+*/
+
+header#cabecarioPagina{
+    background-color: #002D69;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    margin: 0%;     
+}
+
+form{
+    margin-left: 5px;
+    margin-right: 20px;
+    border-bottom: 1px solid #043F85;
+    padding-bottom: 10px;
+}
+
+div#resultado{
+    display: none;
+    text-align: center;   
+}
+
+/*divs do cadastro fornecedor*/
+
+div#caixaPequena{
+    width: 19.5%;
+    display: inline-block;
+    margin-right: 0%;
+
+}    
+div#caixaPequena input[type="checkbox"]{
+    margin-left: 20px;
+}
+
+/*divs do cadastro Contrato*/
+input#dadosContrato{
+    font-size: 11pt; 
+    height: 35px;
+}
+input#cnpjContrato{
+    width: 200px;
+    margin-bottom: 10px;
+    display: inline-block;
+    height: 35px;
+    font-size: 11pt;
+}
+label{
+    font-size: 11pt; 
+}
+
+
+label#seleciona{
+    width: 15%;
+    display: inline-block;
+    font-size: 11pt;
+}
+
+select#selecao{
+    width: 84%;
+    display: inline-block;
+    height: 35px;
+    font-size: 11pt;
+}
+select#selecaoObj{
+    height: 35px;
+    font-size: 11pt;
+}
+
+textArea#areaDesc{
+
+    font-size: 11pt;
+}
+
+label#nomeFornecedor{
+    display: inline-block;
+    color: blue;
+    font-size: 11pt;
+}
+
+div#tabela{
+    text-align: left;   
+    margin-top: 20px; 
+}
+
+
+
+/*lista contratos*/
+div .form-group{
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+div#contratos{
+    width: 100%;   
+    border-bottom:  solid 1px black;  
+}
+
+div#blocopopup{
+    border-bottom: solid 2px rgba(20, 38, 121, 0.842);
+    padding: 20px;
+}
+
+div#caixasPlano{
+    display: inline-block;
+    width: 200px;
+}
+
+
+div#descricao{
+    display: inline;
+}
+
+button#btnCadastrar{
+    display: inline-block;
+    height: 30px;
+    font-size: 10pt;
+}
+
+table#tabelaVencimentos thead{
+    background: #002D69;
+    color: white;
+    text-align: center;
+}
+
+
+table#tabelaVencimentos tbody{
+    text-align: center;
+}
+
+div.modal-body p#popup{
+    display: inline-block;
+    width: 150px;
+}
+
+div#paginas{
+    margin-top:80px;
+}
+div#paginasVencimentos{
+    margin-top: 120px;
+}
+
+table tr td button#btnacao{
+    padding: 0px;
+    border: none;
+    margin: 2px;
+}
